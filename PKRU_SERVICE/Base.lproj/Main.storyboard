@@ -69,10 +69,29 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Fdv-gm-fJx"/>
-                                    <barButtonItem image="ic_exit_to_app_2x.png" id="8f6-SS-p4z"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="8f6-SS-p4z">
+                                        <connections>
+                                            <action selector="loginButtom:" destination="BYZ-38-t0r" id="TTd-zv-It3"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="tLw-7P-3be"/>
                                 </items>
                             </toolbar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bgo-Iz-I15">
+                                <rect key="frame" x="154" y="445" width="68" height="31.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUl-3n-jkT">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fUl-3n-jkT" firstAttribute="leading" secondItem="Bgo-Iz-I15" secondAttribute="leading" id="anQ-fq-G7s"/>
+                                    <constraint firstAttribute="trailing" secondItem="fUl-3n-jkT" secondAttribute="trailing" id="kcE-tn-xTe"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -83,10 +102,12 @@
                             <constraint firstItem="rLA-4e-3eq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ELR-m8-kL1"/>
                             <constraint firstItem="lSg-L6-TQZ" firstAttribute="top" secondItem="nXr-9u-g63" secondAttribute="bottom" constant="18" id="FDd-TO-JdS"/>
                             <constraint firstItem="dC3-Td-343" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KEe-9U-LyV"/>
+                            <constraint firstItem="Bgo-Iz-I15" firstAttribute="top" secondItem="8sX-7b-g3G" secondAttribute="bottom" constant="37" id="Mt5-q6-qqo"/>
                             <constraint firstAttribute="trailing" secondItem="dC3-Td-343" secondAttribute="trailing" id="QXT-XT-Cxo"/>
                             <constraint firstItem="M3K-bY-ALr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Wra-b9-72j"/>
                             <constraint firstAttribute="trailing" secondItem="rLA-4e-3eq" secondAttribute="trailing" id="dcq-b9-jo3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M3K-bY-ALr" secondAttribute="bottom" id="eMQ-l3-OkG"/>
+                            <constraint firstItem="Bgo-Iz-I15" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pTY-C3-98g"/>
                             <constraint firstItem="rLA-4e-3eq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q5F-FC-TR4"/>
                             <constraint firstItem="nXr-9u-g63" firstAttribute="top" secondItem="rLA-4e-3eq" secondAttribute="bottom" constant="18" id="saM-Ak-JjS"/>
                             <constraint firstItem="lSg-L6-TQZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wfs-fi-hV3"/>
@@ -94,6 +115,12 @@
                             <constraint firstItem="M3K-bY-ALr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zKH-mk-Vtq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Password" destination="8bC-Xf-vdC" id="DX7-CF-mGW"/>
+                        <outlet property="alertLabel" destination="fUl-3n-jkT" id="DAD-nZ-aSz"/>
+                        <outlet property="passwordTextField" destination="8sX-7b-g3G" id="a8F-ZI-FNd"/>
+                        <outlet property="userTextField" destination="lSg-L6-TQZ" id="0hx-aG-uAF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,7 +146,7 @@
                                     <navigationItem title="Sign Up" id="sTx-To-qbM">
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="sFx-Fr-Feu">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="j6N-Ij-aLJ"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="j6N-Ij-aLJ"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="o95-Oj-5lb">
