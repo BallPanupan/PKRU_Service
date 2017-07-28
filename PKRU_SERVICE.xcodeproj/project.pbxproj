@@ -12,21 +12,21 @@
 		4FFFE02C1F2AE12100FC04A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE02A1F2AE12100FC04A9 /* Main.storyboard */; };
 		4FFFE02E1F2AE12100FC04A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE02D1F2AE12100FC04A9 /* Assets.xcassets */; };
 		4FFFE0311F2AE12100FC04A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE02F1F2AE12100FC04A9 /* LaunchScreen.storyboard */; };
-		4FFFE0391F2AE26000FC04A9 /* PKRU_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0381F2AE26000FC04A9 /* PKRU_Logo.png */; };
-		4FFFE03B1F2AE76200FC04A9 /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE03A1F2AE76200FC04A9 /* bg_pkru.png */; };
-		4FFFE03F1F2AF36500FC04A9 /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE03C1F2AF36500FC04A9 /* ic_exit_to_app_2x.png */; };
-		4FFFE0401F2AF36500FC04A9 /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE03D1F2AF36500FC04A9 /* ic_exit_to_app_3x.png */; };
-		4FFFE0411F2AF36500FC04A9 /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE03E1F2AF36500FC04A9 /* ic_exit_to_app.png */; };
-		4FFFE0451F2AF46F00FC04A9 /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0421F2AF46F00FC04A9 /* ic_group_add_2x.png */; };
-		4FFFE0461F2AF46F00FC04A9 /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0431F2AF46F00FC04A9 /* ic_group_add_3x.png */; };
-		4FFFE0471F2AF46F00FC04A9 /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0441F2AF46F00FC04A9 /* ic_group_add.png */; };
 		4FFFE0491F2AF57700FC04A9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFFE0481F2AF57700FC04A9 /* SignUpViewController.swift */; };
-		4FFFE04D1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE04A1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_2x.png */; };
-		4FFFE04E1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE04B1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_3x.png */; };
-		4FFFE04F1F2AF78A00FC04A9 /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE04C1F2AF78A00FC04A9 /* ic_keyboard_arrow_left.png */; };
-		4FFFE0531F2B180500FC04A9 /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0501F2B180500FC04A9 /* ic_save_2x.png */; };
-		4FFFE0541F2B180500FC04A9 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0511F2B180500FC04A9 /* ic_save_3x.png */; };
-		4FFFE0551F2B180500FC04A9 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0521F2B180500FC04A9 /* ic_save.png */; };
+		4FFFE0591F2B19AC00FC04A9 /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0561F2B19AC00FC04A9 /* ic_save_2x.png */; };
+		4FFFE05A1F2B19AC00FC04A9 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0571F2B19AC00FC04A9 /* ic_save_3x.png */; };
+		4FFFE05B1F2B19AC00FC04A9 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0581F2B19AC00FC04A9 /* ic_save.png */; };
+		4FFFE05F1F2B19D500FC04A9 /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE05C1F2B19D500FC04A9 /* ic_keyboard_arrow_left_2x.png */; };
+		4FFFE0601F2B19D500FC04A9 /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE05D1F2B19D500FC04A9 /* ic_keyboard_arrow_left_3x.png */; };
+		4FFFE0611F2B19D500FC04A9 /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE05E1F2B19D500FC04A9 /* ic_keyboard_arrow_left.png */; };
+		4FFFE0651F2B19EE00FC04A9 /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0621F2B19EE00FC04A9 /* ic_group_add_2x.png */; };
+		4FFFE0661F2B19EE00FC04A9 /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0631F2B19EE00FC04A9 /* ic_group_add_3x.png */; };
+		4FFFE0671F2B19EE00FC04A9 /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0641F2B19EE00FC04A9 /* ic_group_add.png */; };
+		4FFFE06B1F2B1A0900FC04A9 /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0681F2B1A0900FC04A9 /* ic_exit_to_app_2x.png */; };
+		4FFFE06C1F2B1A0900FC04A9 /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0691F2B1A0900FC04A9 /* ic_exit_to_app_3x.png */; };
+		4FFFE06D1F2B1A0900FC04A9 /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE06A1F2B1A0900FC04A9 /* ic_exit_to_app.png */; };
+		4FFFE06F1F2B1A2300FC04A9 /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE06E1F2B1A2300FC04A9 /* bg_pkru.png */; };
+		4FFFE0711F2B1A2700FC04A9 /* PKRU_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE0701F2B1A2700FC04A9 /* PKRU_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,21 +37,21 @@
 		4FFFE02D1F2AE12100FC04A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FFFE0301F2AE12100FC04A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FFFE0321F2AE12100FC04A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FFFE0381F2AE26000FC04A9 /* PKRU_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PKRU_Logo.png; path = ../../../PKRU_Logo.png; sourceTree = "<group>"; };
-		4FFFE03A1F2AE76200FC04A9 /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../bg_pkru.png; sourceTree = "<group>"; };
-		4FFFE03C1F2AF36500FC04A9 /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_2x.png; path = ../../../ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_2x.png; sourceTree = "<group>"; };
-		4FFFE03D1F2AF36500FC04A9 /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_3x.png; path = ../../../ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_3x.png; sourceTree = "<group>"; };
-		4FFFE03E1F2AF36500FC04A9 /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app.png; path = ../../../ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app.png; sourceTree = "<group>"; };
-		4FFFE0421F2AF46F00FC04A9 /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
-		4FFFE0431F2AF46F00FC04A9 /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
-		4FFFE0441F2AF46F00FC04A9 /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
 		4FFFE0481F2AF57700FC04A9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		4FFFE04A1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = ../../../ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
-		4FFFE04B1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = ../../../ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
-		4FFFE04C1F2AF78A00FC04A9 /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = ../../../ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
-		4FFFE0501F2B180500FC04A9 /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_2x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_2x.png; sourceTree = "<group>"; };
-		4FFFE0511F2B180500FC04A9 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_3x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_3x.png; sourceTree = "<group>"; };
-		4FFFE0521F2B180500FC04A9 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save.png; sourceTree = "<group>"; };
+		4FFFE0561F2B19AC00FC04A9 /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_2x.png; sourceTree = "<group>"; };
+		4FFFE0571F2B19AC00FC04A9 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_3x.png; sourceTree = "<group>"; };
+		4FFFE0581F2B19AC00FC04A9 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save.png; sourceTree = "<group>"; };
+		4FFFE05C1F2B19D500FC04A9 /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
+		4FFFE05D1F2B19D500FC04A9 /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
+		4FFFE05E1F2B19D500FC04A9 /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
+		4FFFE0621F2B19EE00FC04A9 /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_group_add_2x.png; sourceTree = "<group>"; };
+		4FFFE0631F2B19EE00FC04A9 /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_group_add_3x.png; sourceTree = "<group>"; };
+		4FFFE0641F2B19EE00FC04A9 /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_group_add.png; sourceTree = "<group>"; };
+		4FFFE0681F2B1A0900FC04A9 /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app_2x.png; sourceTree = "<group>"; };
+		4FFFE0691F2B1A0900FC04A9 /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app_3x.png; sourceTree = "<group>"; };
+		4FFFE06A1F2B1A0900FC04A9 /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app.png; sourceTree = "<group>"; };
+		4FFFE06E1F2B1A2300FC04A9 /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pkru.png; sourceTree = "<group>"; };
+		4FFFE0701F2B1A2700FC04A9 /* PKRU_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKRU_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,20 +84,20 @@
 		4FFFE0251F2AE12100FC04A9 /* PKRU_SERVICE */ = {
 			isa = PBXGroup;
 			children = (
-				4FFFE03A1F2AE76200FC04A9 /* bg_pkru.png */,
-				4FFFE0381F2AE26000FC04A9 /* PKRU_Logo.png */,
-				4FFFE03C1F2AF36500FC04A9 /* ic_exit_to_app_2x.png */,
-				4FFFE03D1F2AF36500FC04A9 /* ic_exit_to_app_3x.png */,
-				4FFFE03E1F2AF36500FC04A9 /* ic_exit_to_app.png */,
-				4FFFE0421F2AF46F00FC04A9 /* ic_group_add_2x.png */,
-				4FFFE0431F2AF46F00FC04A9 /* ic_group_add_3x.png */,
-				4FFFE0441F2AF46F00FC04A9 /* ic_group_add.png */,
-				4FFFE04A1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_2x.png */,
-				4FFFE04B1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_3x.png */,
-				4FFFE04C1F2AF78A00FC04A9 /* ic_keyboard_arrow_left.png */,
-				4FFFE0501F2B180500FC04A9 /* ic_save_2x.png */,
-				4FFFE0511F2B180500FC04A9 /* ic_save_3x.png */,
-				4FFFE0521F2B180500FC04A9 /* ic_save.png */,
+				4FFFE0681F2B1A0900FC04A9 /* ic_exit_to_app_2x.png */,
+				4FFFE0701F2B1A2700FC04A9 /* PKRU_Logo.png */,
+				4FFFE06E1F2B1A2300FC04A9 /* bg_pkru.png */,
+				4FFFE0691F2B1A0900FC04A9 /* ic_exit_to_app_3x.png */,
+				4FFFE06A1F2B1A0900FC04A9 /* ic_exit_to_app.png */,
+				4FFFE0621F2B19EE00FC04A9 /* ic_group_add_2x.png */,
+				4FFFE0631F2B19EE00FC04A9 /* ic_group_add_3x.png */,
+				4FFFE0641F2B19EE00FC04A9 /* ic_group_add.png */,
+				4FFFE05C1F2B19D500FC04A9 /* ic_keyboard_arrow_left_2x.png */,
+				4FFFE05D1F2B19D500FC04A9 /* ic_keyboard_arrow_left_3x.png */,
+				4FFFE05E1F2B19D500FC04A9 /* ic_keyboard_arrow_left.png */,
+				4FFFE0561F2B19AC00FC04A9 /* ic_save_2x.png */,
+				4FFFE0571F2B19AC00FC04A9 /* ic_save_3x.png */,
+				4FFFE0581F2B19AC00FC04A9 /* ic_save.png */,
 				4FFFE0261F2AE12100FC04A9 /* AppDelegate.swift */,
 				4FFFE0281F2AE12100FC04A9 /* ViewController.swift */,
 				4FFFE02A1F2AE12100FC04A9 /* Main.storyboard */,
@@ -168,23 +168,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FFFE03B1F2AE76200FC04A9 /* bg_pkru.png in Resources */,
+				4FFFE06D1F2B1A0900FC04A9 /* ic_exit_to_app.png in Resources */,
 				4FFFE0311F2AE12100FC04A9 /* LaunchScreen.storyboard in Resources */,
-				4FFFE0461F2AF46F00FC04A9 /* ic_group_add_3x.png in Resources */,
-				4FFFE04F1F2AF78A00FC04A9 /* ic_keyboard_arrow_left.png in Resources */,
-				4FFFE0401F2AF36500FC04A9 /* ic_exit_to_app_3x.png in Resources */,
-				4FFFE0541F2B180500FC04A9 /* ic_save_3x.png in Resources */,
-				4FFFE0531F2B180500FC04A9 /* ic_save_2x.png in Resources */,
-				4FFFE0471F2AF46F00FC04A9 /* ic_group_add.png in Resources */,
-				4FFFE03F1F2AF36500FC04A9 /* ic_exit_to_app_2x.png in Resources */,
-				4FFFE0411F2AF36500FC04A9 /* ic_exit_to_app.png in Resources */,
+				4FFFE0711F2B1A2700FC04A9 /* PKRU_Logo.png in Resources */,
+				4FFFE06B1F2B1A0900FC04A9 /* ic_exit_to_app_2x.png in Resources */,
+				4FFFE05F1F2B19D500FC04A9 /* ic_keyboard_arrow_left_2x.png in Resources */,
+				4FFFE0611F2B19D500FC04A9 /* ic_keyboard_arrow_left.png in Resources */,
+				4FFFE05A1F2B19AC00FC04A9 /* ic_save_3x.png in Resources */,
 				4FFFE02E1F2AE12100FC04A9 /* Assets.xcassets in Resources */,
-				4FFFE0391F2AE26000FC04A9 /* PKRU_Logo.png in Resources */,
-				4FFFE0551F2B180500FC04A9 /* ic_save.png in Resources */,
-				4FFFE04D1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_2x.png in Resources */,
+				4FFFE0591F2B19AC00FC04A9 /* ic_save_2x.png in Resources */,
+				4FFFE05B1F2B19AC00FC04A9 /* ic_save.png in Resources */,
+				4FFFE0661F2B19EE00FC04A9 /* ic_group_add_3x.png in Resources */,
+				4FFFE06C1F2B1A0900FC04A9 /* ic_exit_to_app_3x.png in Resources */,
 				4FFFE02C1F2AE12100FC04A9 /* Main.storyboard in Resources */,
-				4FFFE0451F2AF46F00FC04A9 /* ic_group_add_2x.png in Resources */,
-				4FFFE04E1F2AF78A00FC04A9 /* ic_keyboard_arrow_left_3x.png in Resources */,
+				4FFFE06F1F2B1A2300FC04A9 /* bg_pkru.png in Resources */,
+				4FFFE0601F2B19D500FC04A9 /* ic_keyboard_arrow_left_3x.png in Resources */,
+				4FFFE0651F2B19EE00FC04A9 /* ic_group_add_2x.png in Resources */,
+				4FFFE0671F2B19EE00FC04A9 /* ic_group_add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
