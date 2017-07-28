@@ -122,7 +122,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="j6N-Ij-aLJ"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="o95-Oj-5lb"/>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="o95-Oj-5lb">
+                                            <connections>
+                                                <action selector="saveButton:" destination="BpJ-UB-5Ae" id="8U8-2G-qfC"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -156,6 +160,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6N-TF-epQ">
+                                <rect key="frame" x="16" y="250" width="343" height="0.0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.91925299657534243" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -166,14 +176,24 @@
                             <constraint firstItem="Cxq-JB-FDK" firstAttribute="centerX" secondItem="5sc-WZ-arm" secondAttribute="centerX" id="DcD-Hj-cxV"/>
                             <constraint firstItem="yZ0-PZ-Yzd" firstAttribute="top" secondItem="Cxq-JB-FDK" secondAttribute="bottom" constant="8" id="Etu-R7-9sq"/>
                             <constraint firstItem="nvU-mg-0Nd" firstAttribute="top" secondItem="v5m-y5-05f" secondAttribute="bottom" id="Ezh-EU-mXj"/>
+                            <constraint firstItem="s6N-TF-epQ" firstAttribute="centerX" secondItem="5sc-WZ-arm" secondAttribute="centerX" id="FDn-V4-ab9"/>
                             <constraint firstItem="Cxq-JB-FDK" firstAttribute="top" secondItem="VGS-H8-OmE" secondAttribute="bottom" constant="30" id="LwB-ce-JNA"/>
+                            <constraint firstItem="s6N-TF-epQ" firstAttribute="top" secondItem="YeL-Pa-4Je" secondAttribute="bottom" constant="50" id="NsJ-EE-EsG"/>
                             <constraint firstItem="YeL-Pa-4Je" firstAttribute="centerX" secondItem="5sc-WZ-arm" secondAttribute="centerX" id="QJo-me-mFa"/>
                             <constraint firstItem="v5m-y5-05f" firstAttribute="top" secondItem="jh9-eX-Ykr" secondAttribute="bottom" id="anU-R0-9b3"/>
+                            <constraint firstItem="s6N-TF-epQ" firstAttribute="leading" secondItem="5sc-WZ-arm" secondAttribute="leadingMargin" id="bWb-nP-mjY"/>
                             <constraint firstItem="YeL-Pa-4Je" firstAttribute="top" secondItem="yZ0-PZ-Yzd" secondAttribute="bottom" constant="8" id="fZ7-4y-Hxr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s6N-TF-epQ" secondAttribute="trailing" id="hJ8-lL-fTy"/>
                             <constraint firstAttribute="trailing" secondItem="v5m-y5-05f" secondAttribute="trailing" id="hmV-Sd-RvP"/>
                             <constraint firstItem="VGS-H8-OmE" firstAttribute="top" secondItem="jh9-eX-Ykr" secondAttribute="bottom" id="k36-64-SiY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AlertLabel" destination="s6N-TF-epQ" id="FNI-La-6RW"/>
+                        <outlet property="nameTextField" destination="Cxq-JB-FDK" id="eq0-Ez-bZU"/>
+                        <outlet property="passwordTextField" destination="YeL-Pa-4Je" id="3lQ-MJ-sMZ"/>
+                        <outlet property="userTextField" destination="yZ0-PZ-Yzd" id="fo6-iF-sDs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8F-WE-dH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
