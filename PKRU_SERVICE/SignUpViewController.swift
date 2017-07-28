@@ -13,6 +13,7 @@ class SignUpViewController: UIViewController {
     
     //Implicit
     let strBlankAlert = "Please Fill All Ever Blank"
+    let strFontPHP = "http://androidthai.in.th/pkru/addDataPanupan.php?isAdd=true&Name="
     
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -46,6 +47,7 @@ class SignUpViewController: UIViewController {
             
         }else{
             // No Space
+            uploadToServer(strName: strName, strUser: strUser, strPassword: strPassword)
         }
         
         
@@ -57,7 +59,18 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+    } //viewDidLoad
+    
+    func uploadToServer(strName:String, strUser:String, strPassword:String) -> Void {
+        let strPHP:String = strFontPHP + "\(strName)&User=\(strUser)&Password=\(strPassword)"
+        print("strPHP ==> \(strPHP)")
+        
+        
+    }// UpLoadToServer
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
