@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PKRU_SERVICE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3K-bY-ALr">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rLA-4e-3eq">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.4198683647260274" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Main Screen" id="vQ6-bo-ubz"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PKRU_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nXr-9u-g63">
+                                <rect key="frame" x="67.5" y="82" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="88Y-tt-ng8"/>
+                                    <constraint firstAttribute="width" constant="240" id="ypc-BL-bh1"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lSg-L6-TQZ">
+                                <rect key="frame" x="67.5" y="340" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="l5p-mV-Kup"/>
+                                    <constraint firstAttribute="width" constant="240" id="tsW-Z7-ifj"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sX-7b-g3G">
+                                <rect key="frame" x="67.5" y="378" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9RJ-C2-lcK"/>
+                                    <constraint firstAttribute="width" constant="240" id="EKu-3e-liU"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="M3K-bY-ALr" secondAttribute="trailing" id="5ou-F2-TRn"/>
+                            <constraint firstItem="8sX-7b-g3G" firstAttribute="top" secondItem="lSg-L6-TQZ" secondAttribute="bottom" constant="8" id="AbQ-PP-6Qh"/>
+                            <constraint firstItem="nXr-9u-g63" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DQh-eL-iXK"/>
+                            <constraint firstItem="rLA-4e-3eq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ELR-m8-kL1"/>
+                            <constraint firstItem="lSg-L6-TQZ" firstAttribute="top" secondItem="nXr-9u-g63" secondAttribute="bottom" constant="18" id="FDd-TO-JdS"/>
+                            <constraint firstItem="M3K-bY-ALr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Wra-b9-72j"/>
+                            <constraint firstAttribute="trailing" secondItem="rLA-4e-3eq" secondAttribute="trailing" id="dcq-b9-jo3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M3K-bY-ALr" secondAttribute="bottom" id="eMQ-l3-OkG"/>
+                            <constraint firstItem="rLA-4e-3eq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q5F-FC-TR4"/>
+                            <constraint firstItem="nXr-9u-g63" firstAttribute="top" secondItem="rLA-4e-3eq" secondAttribute="bottom" constant="18" id="saM-Ak-JjS"/>
+                            <constraint firstItem="lSg-L6-TQZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wfs-fi-hV3"/>
+                            <constraint firstItem="8sX-7b-g3G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x3I-F0-rrF"/>
+                            <constraint firstItem="M3K-bY-ALr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zKH-mk-Vtq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PKRU_Logo.png" width="391" height="500"/>
+        <image name="bg_pkru.png" width="1000" height="543"/>
+    </resources>
+</document>
