@@ -29,7 +29,13 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.4198683647260274" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Main Screen" id="vQ6-bo-ubz"/>
+                                    <navigationItem title="Main Screen" id="vQ6-bo-ubz">
+                                        <barButtonItem key="rightBarButtonItem" image="ic_group_add_2x.png" id="dVF-Ic-7kL">
+                                            <connections>
+                                                <segue destination="BpJ-UB-5Ae" kind="show" id="6C7-rs-fQV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PKRU_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nXr-9u-g63">
@@ -62,7 +68,9 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dC3-Td-343">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" id="8f6-SS-p4z"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Fdv-gm-fJx"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="8f6-SS-p4z"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tLw-7P-3be"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -90,9 +98,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="UPg-3h-baS">
+            <objects>
+                <viewController id="BpJ-UB-5Ae" customClass="SignUpViewController" customModule="PKRU_SERVICE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jh9-eX-Ykr"/>
+                        <viewControllerLayoutGuide type="bottom" id="nvU-mg-0Nd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5sc-WZ-arm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8F-WE-dH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="36"/>
+        </scene>
     </scenes>
     <resources>
         <image name="PKRU_Logo.png" width="391" height="500"/>
         <image name="bg_pkru.png" width="1000" height="543"/>
+        <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
+        <image name="ic_group_add_2x.png" width="48" height="48"/>
     </resources>
 </document>
